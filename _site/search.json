@@ -1,0 +1,169 @@
+[
+
+  
+    {
+      "title"			: "Unity Internal Cheat Code",
+      "link"			: "http://localhost:4000/articles/Unity-Internal-Secret/",
+      "excerpt"		: "Who knew Unity had cheat codes?"
+    }
+  
+
+  
+    ,{
+      "title"			: "MathJax Example",
+      "link"			: "http://localhost:4000/blog/mathjax-example/",
+      "excerpt"		: "MathJax is a simple way of including Tex/LaTex/MathML based mathematics in HTML webpages. To get up and running you need to include the MathJax script in the header of your github pages page, and then write some maths. For LaTex, there are two delimiters you need to know about, one for block or displayed mathematics  ... , and the other for inline mathematics  ... ."
+    }
+  
+
+  
+    ,{
+      "title"			: "Hello World",
+      "link"			: "http://localhost:4000/blog/hello-world/",
+      "excerpt"		: "You’ll find this post in your _posts directory - edit this post and re-build (or run with the -w switch) to see your changes!To add new posts, simply add a file in the _posts directory that follows the convention: YYYY-MM-DD-name-of-post.ext."
+    }
+  
+
+  
+    ,{
+      "title"			: "Override Author Byline Test Post",
+      "link"			: "http://localhost:4000/articles/author-override/",
+      "excerpt"		: "An article to test overriding the default site author."
+    }
+  
+
+  
+    ,{
+      "title"			: "Syntax Highlighting Post",
+      "link"			: "http://localhost:4000/articles/code-highlighting-post/",
+      "excerpt"		: "Demo post displaying the various ways of highlighting code in Markdown."
+    }
+  
+
+  
+    ,{
+      "title"			: "Sample Link Post",
+      "link"			: "http://localhost:4000/articles/sample-link-post/",
+      "excerpt"		: "Example and code for using link posts."
+    }
+  
+
+  
+    ,{
+      "title"			: "A Post with a Video",
+      "link"			: "http://localhost:4000/articles/video-post/",
+      "excerpt"		: "Custom written post descriptions are the way to go… if you’re not lazy."
+    }
+  
+
+  
+    ,{
+      "title"			: "Post with Large Feature Image and Text",
+      "link"			: "http://localhost:4000/articles/readability-feature-post/",
+      "excerpt"		: "Custom written post descriptions are the way to go… if you’re not lazy."
+    }
+  
+
+  
+    ,{
+      "title"			: "A Post with Images",
+      "link"			: "http://localhost:4000/articles/sample-post-images/",
+      "excerpt"		: "Examples and code for displaying images in posts."
+    }
+  
+
+  
+    ,{
+      "title"			: "Final Year Project - Music Visualisation Demo",
+      "link"			: "http://localhost:4000/blog/Starting-Final-Year-Project/",
+      "excerpt"		: "Using an OpenCL powered particle system to simulate hundreds of thousands of particles!"
+    }
+  
+
+  
+    ,{
+      "title"			: "Testing Readability with a Bunch of Text",
+      "link"			: "http://localhost:4000/articles/readability-post/",
+      "excerpt"		: "A ton of text to test readability."
+    }
+  
+
+  
+    ,{
+      "title"			: "Direct 3D - Soft Shadows",
+      "link"			: "http://localhost:4000/blog/Direct3D-Soft-Shadows/",
+      "excerpt"		: "Dynamic soft shadows in DirectX 9"
+    }
+  
+
+  
+    ,{
+      "title"			: "Games Engine Construction - Final Game Demo",
+      "link"			: "http://localhost:4000/blog/Games-Engine-Construction-Final-Demo/",
+      "excerpt"		: "Creating a game engine in C++"
+    }
+  
+
+  
+    ,{
+      "title"			: "Year 1 ICA - Centipede Remake",
+      "link"			: "http://localhost:4000/blog/Centipede-Remake/",
+      "excerpt"		: "Remaking the arcade classic, Centipede in C++"
+    }
+  
+
+  
+    ,{
+      "title"			: "UDK – Dr Who Level demo",
+      "link"			: "http://localhost:4000/blog/UDK-Level-Demo/",
+      "excerpt"		: "Building a simple level in UDK"
+    }
+  
+
+  
+    ,{
+      "title"			: "Sample Post",
+      "link"			: "http://localhost:4000/articles/sample-post/",
+      "excerpt"		: "Just about everything you’ll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
+    }
+  
+
+
+
+  
+
+  
+
+  
+
+  
+    ,{
+      "title"			: "About the Jekyll Theme",
+      "link"			: "http://localhost:4000/about/",
+      "excerpt"		: "So Simple is a responsive Jekyll theme for your words and images."
+    }
+  
+
+  
+
+  
+
+  
+    ,{
+      "title"			: "Theme Setup",
+      "link"			: "http://localhost:4000/theme-setup/",
+      "excerpt"		: "Instructions on how to install and customize the Jekyll theme So Simple."
+    }
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+]
