@@ -137,14 +137,6 @@
   
 
   
-    ,{
-      "title"			: "About the Jekyll Theme",
-      "link"			: "http://hello.danieljbradshaw.co.uk/about/",
-      "excerpt"		: "So Simple is a responsive Jekyll theme for your words and images."
-    }
-  
-
-  
 
   
 
@@ -153,6 +145,22 @@
       "title"			: "Theme Setup",
       "link"			: "http://hello.danieljbradshaw.co.uk/theme-setup/",
       "excerpt"		: "Instructions on how to install and customize the Jekyll theme So Simple."
+    }
+  
+
+  
+    ,{
+      "title"			: "Twitter Feed",
+      "link"			: "http://hello.danieljbradshaw.co.uk/twitter-feed/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "About Me",
+      "link"			: "http://hello.danieljbradshaw.co.uk/about/",
+      "excerpt"		: ""
     }
   
 
