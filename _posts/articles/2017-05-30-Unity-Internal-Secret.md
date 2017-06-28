@@ -4,7 +4,7 @@ title: Unity Internal Cheat Code
 excerpt: "Who knew Unity had cheat codes?"
 modified: 2016-06-01T14:17:25-04:00
 categories: articles
-tags: [C#, Unity3d]
+tags: [CSharp, Unity3d]
 comments: false
 share: true
 author: dan_bradshaw
