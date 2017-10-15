@@ -5,7 +5,7 @@ locale: en_US
 description: Games Programmer.
 logo: dan-profile.jpg
 search: true
-url: http://hello.danieljbradshaw.co.uk
+url: http://www.danieljbradshaw.co.uk
 
 # Jekyll configuration
 
@@ -39,13 +39,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 owner:
   name: Dan Bradshaw
   avatar: bio-photo.jpg
-  email: danieljbradshaw@gmail.com
+  email: hello@danieljbradshaw.co.uk
   disqus-shortname:
   twitter: danieljbradshaw
   facebook: #username
-  github: #username
+  github: danjb91
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: danieljbradshaw
   instagram: #username
   flickr: #username
   tumblr: #username

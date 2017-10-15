@@ -1,138 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://hello.danieljbradshaw.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://hello.danieljbradshaw.co.uk/" rel="alternate" type="text/html" /><updated>2017-06-28T21:17:08+01:00</updated><id>http://hello.danieljbradshaw.co.uk/</id><title type="html">Dan Bradshaw</title><subtitle>Games Programmer.</subtitle><entry><title type="html">Unity Internal Cheat Code</title><link href="http://hello.danieljbradshaw.co.uk/articles/Unity-Internal-Secret/" rel="alternate" type="text/html" title="Unity Internal Cheat Code" /><published>2017-05-30T00:00:00+01:00</published><updated>2017-05-30T00:00:00+01:00</updated><id>http://hello.danieljbradshaw.co.uk/articles/Unity-Internal-Secret</id><content type="html" xml:base="http://hello.danieljbradshaw.co.uk/articles/Unity-Internal-Secret/">&lt;p&gt;One of the best tools for writing Unity Editor scripts, is being able to learn directly from the Awesome Team that creates the tools you use every day in the editor. Because the Unity Editor is largely written in C#, this means we can decompile the editor code, and directly see how they are using their APIs, or how they do they fancy things they do!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://www.danieljbradshaw.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.danieljbradshaw.co.uk/" rel="alternate" type="text/html" /><updated>2017-10-15T20:53:55+01:00</updated><id>http://www.danieljbradshaw.co.uk/</id><title type="html">Dan Bradshaw</title><subtitle>Games Programmer.</subtitle><entry><title type="html">Redesigned Blog</title><link href="http://www.danieljbradshaw.co.uk/blog/Redesigned-Blog/" rel="alternate" type="text/html" title="Redesigned Blog" /><published>2017-10-15T00:00:00+01:00</published><updated>2017-10-15T00:00:00+01:00</updated><id>http://www.danieljbradshaw.co.uk/blog/Redesigned-Blog</id><content type="html" xml:base="http://www.danieljbradshaw.co.uk/blog/Redesigned-Blog/">&lt;p&gt;So I’ve left my website untouched for quite some time. These last few years have been busy!
+Hopefully I’ll get round to posting more regular entries, and keeping track the things I come across daily.
+I’ve already got one post in progress, so that’s a start!&lt;/p&gt;
 
-&lt;p&gt;This used to be quite the controversial topic, but recently Unity have explicitly allowed this in their terms of service. Personally, I use the brilliant application dotPeek from JetBeans. We can select any class in either the UnityEngine, or UnityEditor DLL files and view the decompiled code for the functions in that class. You might quickly noticed that some functions don’t have decompiled code available, these functions are implemented directly in the C++ part of the engine. This is usually done for optimisation reasons.&lt;/p&gt;
-
-&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
-
-&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
-
-&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
-
-&lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;/h4&gt;
-
-&lt;h5 id=&quot;heading-5&quot;&gt;Heading 5&lt;/h5&gt;
-
-&lt;h6 id=&quot;heading-6&quot;&gt;Heading 6&lt;/h6&gt;
-
-&lt;h3 id=&quot;body-text&quot;&gt;Body text&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-
-&lt;p class=&quot;pull-right&quot;&gt;&lt;img src=&quot;http://hello.danieljbradshaw.co.uk/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H&lt;sub&gt;2&lt;/sub&gt;O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times &lt;cite&gt;(That’s a citation)&lt;/cite&gt;. &lt;u&gt;Underline&lt;/u&gt;. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
-
-&lt;p&gt;HTML and &lt;abbr title=&quot;cascading stylesheets&quot;&gt;CSS&lt;abbr&gt; are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.&lt;/abbr&gt;&lt;/abbr&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;/h2&gt;
-
-&lt;h3 id=&quot;ordered-lists&quot;&gt;Ordered Lists&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Item one
-    &lt;ol&gt;
-      &lt;li&gt;sub item one&lt;/li&gt;
-      &lt;li&gt;sub item two&lt;/li&gt;
-      &lt;li&gt;sub item three&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;unordered-lists&quot;&gt;Unordered Lists&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Item one&lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-  &lt;li&gt;Item three&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
-
-&lt;table class=&quot;table&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h2&gt;
-
-&lt;p&gt;Syntax highlighting via Rouge&lt;/p&gt;
-
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-csharp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MonoBehaviour&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;Debug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Non Rouge code example&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div id=&quot;awesome&quot;&amp;gt;
-    &amp;lt;p&amp;gt;This is great isn't it?&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
-
-&lt;p&gt;Make any link standout more when applying the &lt;code class=&quot;highlighter-rouge&quot;&gt;.btn&lt;/code&gt; class.&lt;/p&gt;
-
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;This is a button&lt;/a&gt;&lt;/div&gt;</content><author><name>Dan Bradshaw</name><email>danieljbradshaw@gmail.com</email></author><category term="CSharp" /><category term="Unity3d" /><summary type="html">Who knew Unity had cheat codes?</summary></entry><entry><title type="html">Final Year Project - Music Visualisation Demo</title><link href="http://hello.danieljbradshaw.co.uk/blog/Starting-Final-Year-Project/" rel="alternate" type="text/html" title="Final Year Project - Music Visualisation Demo" /><published>2012-12-01T00:00:00+00:00</published><updated>2012-12-01T00:00:00+00:00</updated><id>http://hello.danieljbradshaw.co.uk/blog/Starting-Final-Year-Project</id><content type="html" xml:base="http://hello.danieljbradshaw.co.uk/blog/Starting-Final-Year-Project/">&lt;h1 id=&quot;coming-up-with-the-idea&quot;&gt;Coming up with the idea&lt;/h1&gt;
+&lt;p&gt;That’s all for now, see you in the next one!&lt;/p&gt;</content><author><name>Dan Bradshaw</name><email>danieljbradshaw@gmail.com</email></author><category term="Misc" /><summary type="html">Finally got round to updating this!</summary></entry><entry><title type="html">Final Year Project - Music Visualisation Demo</title><link href="http://www.danieljbradshaw.co.uk/blog/Starting-Final-Year-Project/" rel="alternate" type="text/html" title="Final Year Project - Music Visualisation Demo" /><published>2012-12-01T00:00:00+00:00</published><updated>2012-12-01T00:00:00+00:00</updated><id>http://www.danieljbradshaw.co.uk/blog/Starting-Final-Year-Project</id><content type="html" xml:base="http://www.danieljbradshaw.co.uk/blog/Starting-Final-Year-Project/">&lt;h1 id=&quot;coming-up-with-the-idea&quot;&gt;Coming up with the idea&lt;/h1&gt;
 
 &lt;p&gt;I had a number of ideas I wanted to work on for my final year project, but over my second year I had a growing interest of using the GPU to offload computation from the CPU.&lt;/p&gt;
 
@@ -160,7 +30,7 @@
 
 &lt;p&gt;OpenCL is an opensource cross plaform alternative to CUDA.&lt;/p&gt;
 
-&lt;iframe src=&quot;https://www.youtube.com/embed/oXoq9hyEH8U?ecver=2&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Dan Bradshaw</name><email>danieljbradshaw@gmail.com</email></author><category term="University" /><category term="Final Year Project" /><category term="C++" /><category term="GPU Particles" /><category term="OpenCL" /><summary type="html">Using an OpenCL powered particle system to simulate hundreds of thousands of particles!</summary></entry><entry><title type="html">Direct 3D - Soft Shadows</title><link href="http://hello.danieljbradshaw.co.uk/blog/Direct3D-Soft-Shadows/" rel="alternate" type="text/html" title="Direct 3D - Soft Shadows" /><published>2012-03-13T00:00:00+00:00</published><updated>2012-03-13T00:00:00+00:00</updated><id>http://hello.danieljbradshaw.co.uk/blog/Direct3D-Soft-Shadows</id><content type="html" xml:base="http://hello.danieljbradshaw.co.uk/blog/Direct3D-Soft-Shadows/">&lt;iframe src=&quot;https://www.youtube.com/embed/HlVocgF9OM0?ecver=2&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/oXoq9hyEH8U?ecver=2&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Dan Bradshaw</name><email>danieljbradshaw@gmail.com</email></author><category term="University" /><category term="Final Year Project" /><category term="C++" /><category term="GPU Particles" /><category term="OpenCL" /><summary type="html">Using an OpenCL powered particle system to simulate hundreds of thousands of particles!</summary></entry><entry><title type="html">Direct 3D - Soft Shadows</title><link href="http://www.danieljbradshaw.co.uk/blog/Direct3D-Soft-Shadows/" rel="alternate" type="text/html" title="Direct 3D - Soft Shadows" /><published>2012-03-13T00:00:00+00:00</published><updated>2012-03-13T00:00:00+00:00</updated><id>http://www.danieljbradshaw.co.uk/blog/Direct3D-Soft-Shadows</id><content type="html" xml:base="http://www.danieljbradshaw.co.uk/blog/Direct3D-Soft-Shadows/">&lt;iframe src=&quot;https://www.youtube.com/embed/HlVocgF9OM0?ecver=2&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;This is the most recent version of the spotlights system I’ve created in my second year. It has support for any number of lights (within reason! :D) and supports different projected textures for each light.&lt;/p&gt;
 
@@ -168,7 +38,7 @@
 
 &lt;iframe src=&quot;https://www.youtube.com/embed/5ShIiPgCtjM?ecver=2&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;The video above demos an earlier version which only supported one light.&lt;/p&gt;</content><author><name>Dan Bradshaw</name><email>danieljbradshaw@gmail.com</email></author><category term="University" /><category term="Second Year Projects" /><category term="DirectX 9" /><category term="C++" /><summary type="html">Dynamic soft shadows in DirectX 9</summary></entry><entry><title type="html">Games Engine Construction - Final Game Demo</title><link href="http://hello.danieljbradshaw.co.uk/blog/Games-Engine-Construction-Final-Demo/" rel="alternate" type="text/html" title="Games Engine Construction - Final Game Demo" /><published>2012-03-05T00:00:00+00:00</published><updated>2012-03-05T00:00:00+00:00</updated><id>http://hello.danieljbradshaw.co.uk/blog/Games-Engine-Construction-Final-Demo</id><content type="html" xml:base="http://hello.danieljbradshaw.co.uk/blog/Games-Engine-Construction-Final-Demo/">&lt;iframe src=&quot;https://www.youtube.com/embed/VGZ3I_Ky8Ew?ecver=2&quot; width=&quot;480&quot; height=&quot;360&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;The video above demos an earlier version which only supported one light.&lt;/p&gt;</content><author><name>Dan Bradshaw</name><email>danieljbradshaw@gmail.com</email></author><category term="University" /><category term="Second Year Projects" /><category term="DirectX 9" /><category term="C++" /><summary type="html">Dynamic soft shadows in DirectX 9</summary></entry><entry><title type="html">Games Engine Construction - Final Game Demo</title><link href="http://www.danieljbradshaw.co.uk/blog/Games-Engine-Construction-Final-Demo/" rel="alternate" type="text/html" title="Games Engine Construction - Final Game Demo" /><published>2012-03-05T00:00:00+00:00</published><updated>2012-03-05T00:00:00+00:00</updated><id>http://www.danieljbradshaw.co.uk/blog/Games-Engine-Construction-Final-Demo</id><content type="html" xml:base="http://www.danieljbradshaw.co.uk/blog/Games-Engine-Construction-Final-Demo/">&lt;iframe src=&quot;https://www.youtube.com/embed/VGZ3I_Ky8Ew?ecver=2&quot; width=&quot;480&quot; height=&quot;360&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;For my main project this year, I was tasked with creating a 2D engine from scratch. The final product is shown in the video above.&lt;/p&gt;
 
@@ -182,10 +52,10 @@
 
 &lt;p&gt;When working on the audio for this project, I had a lot more time to get stuck into FMOD and make use of all the awesome features it provides. I used dynamic music that progressed as the player progressed through the level, and event systems and RTPC systems.&lt;/p&gt;
 
-&lt;p&gt;Overall I thoroughly enjoyed working on this project, and I think that shows in the video!&lt;/p&gt;</content><author><name>Dan Bradshaw</name><email>danieljbradshaw@gmail.com</email></author><category term="University" /><category term="Second Year Projects" /><category term="Custom Engine" /><category term="FMOD" /><category term="C++" /><summary type="html">Creating a game engine in C++</summary></entry><entry><title type="html">Year 1 ICA - Centipede Remake</title><link href="http://hello.danieljbradshaw.co.uk/blog/Centipede-Remake/" rel="alternate" type="text/html" title="Year 1 ICA - Centipede Remake" /><published>2011-11-17T00:00:00+00:00</published><updated>2011-11-17T00:00:00+00:00</updated><id>http://hello.danieljbradshaw.co.uk/blog/Centipede-Remake</id><content type="html" xml:base="http://hello.danieljbradshaw.co.uk/blog/Centipede-Remake/">&lt;iframe src=&quot;https://www.youtube.com/embed/edvaX2dKiVQ?ecver=2&quot; width=&quot;480&quot; height=&quot;360&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;Overall I thoroughly enjoyed working on this project, and I think that shows in the video!&lt;/p&gt;</content><author><name>Dan Bradshaw</name><email>danieljbradshaw@gmail.com</email></author><category term="University" /><category term="Second Year Projects" /><category term="Custom Engine" /><category term="FMOD" /><category term="C++" /><summary type="html">Creating a game engine in C++</summary></entry><entry><title type="html">Year 1 ICA - Centipede Remake</title><link href="http://www.danieljbradshaw.co.uk/blog/Centipede-Remake/" rel="alternate" type="text/html" title="Year 1 ICA - Centipede Remake" /><published>2011-11-17T00:00:00+00:00</published><updated>2011-11-17T00:00:00+00:00</updated><id>http://www.danieljbradshaw.co.uk/blog/Centipede-Remake</id><content type="html" xml:base="http://www.danieljbradshaw.co.uk/blog/Centipede-Remake/">&lt;iframe src=&quot;https://www.youtube.com/embed/edvaX2dKiVQ?ecver=2&quot; width=&quot;480&quot; height=&quot;360&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;For our main project in this year, we had to work with a C++ framework provided by our lecture. This was my first experience using C++ and making use of multiple inheritance and polymorphism.
-For the audio in the game, I worked with the FMOD sound system, making use of dynamic music and the event system it provides.&lt;/p&gt;</content><author><name>Dan Bradshaw</name><email>danieljbradshaw@gmail.com</email></author><category term="University" /><category term="First Year Projects" /><category term="C++" /><category term="FMOD" /><summary type="html">Remaking the arcade classic, Centipede in C++</summary></entry><entry><title type="html">UDK – Dr Who Level demo</title><link href="http://hello.danieljbradshaw.co.uk/blog/UDK-Level-Demo/" rel="alternate" type="text/html" title="UDK – Dr Who Level demo" /><published>2011-11-07T00:00:00+00:00</published><updated>2011-11-07T00:00:00+00:00</updated><id>http://hello.danieljbradshaw.co.uk/blog/UDK-Level-Demo</id><content type="html" xml:base="http://hello.danieljbradshaw.co.uk/blog/UDK-Level-Demo/">&lt;iframe src=&quot;https://www.youtube.com/embed/5axH6yGzMQM?ecver=2&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+For the audio in the game, I worked with the FMOD sound system, making use of dynamic music and the event system it provides.&lt;/p&gt;</content><author><name>Dan Bradshaw</name><email>danieljbradshaw@gmail.com</email></author><category term="University" /><category term="First Year Projects" /><category term="C++" /><category term="FMOD" /><summary type="html">Remaking the arcade classic, Centipede in C++</summary></entry><entry><title type="html">UDK – Dr Who Level demo</title><link href="http://www.danieljbradshaw.co.uk/blog/UDK-Level-Demo/" rel="alternate" type="text/html" title="UDK – Dr Who Level demo" /><published>2011-11-07T00:00:00+00:00</published><updated>2011-11-07T00:00:00+00:00</updated><id>http://www.danieljbradshaw.co.uk/blog/UDK-Level-Demo</id><content type="html" xml:base="http://www.danieljbradshaw.co.uk/blog/UDK-Level-Demo/">&lt;iframe src=&quot;https://www.youtube.com/embed/5axH6yGzMQM?ecver=2&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Using the Unreal Development Kit, we were asked to create a level based on the BBC TV Show Dr Who. Being one of my favorite TV shows, I jumped at the challenge and created the level shown in the video above. Since I didn’t have access to any custom made models, I made use entirely of those provided with the UDK. The Tardis model was provided by my friend.&lt;/p&gt;
 

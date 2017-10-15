@@ -1,1 +1,1 @@
-Sitemap: http://hello.danieljbradshaw.co.uk/sitemap.xml
+Sitemap: http://www.danieljbradshaw.co.uk/sitemap.xml

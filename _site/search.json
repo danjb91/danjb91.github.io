@@ -2,16 +2,16 @@
 
   
     {
-      "title"			: "Unity Internal Cheat Code",
-      "link"			: "http://hello.danieljbradshaw.co.uk/articles/Unity-Internal-Secret/",
-      "excerpt"		: "Who knew Unity had cheat codes?"
+      "title"			: "Redesigned Blog",
+      "link"			: "http://www.danieljbradshaw.co.uk/blog/Redesigned-Blog/",
+      "excerpt"		: "Finally got round to updating this!"
     }
   
 
   
     ,{
       "title"			: "Final Year Project - Music Visualisation Demo",
-      "link"			: "http://hello.danieljbradshaw.co.uk/blog/Starting-Final-Year-Project/",
+      "link"			: "http://www.danieljbradshaw.co.uk/blog/Starting-Final-Year-Project/",
       "excerpt"		: "Using an OpenCL powered particle system to simulate hundreds of thousands of particles!"
     }
   
@@ -19,7 +19,7 @@
   
     ,{
       "title"			: "Direct 3D - Soft Shadows",
-      "link"			: "http://hello.danieljbradshaw.co.uk/blog/Direct3D-Soft-Shadows/",
+      "link"			: "http://www.danieljbradshaw.co.uk/blog/Direct3D-Soft-Shadows/",
       "excerpt"		: "Dynamic soft shadows in DirectX 9"
     }
   
@@ -27,7 +27,7 @@
   
     ,{
       "title"			: "Games Engine Construction - Final Game Demo",
-      "link"			: "http://hello.danieljbradshaw.co.uk/blog/Games-Engine-Construction-Final-Demo/",
+      "link"			: "http://www.danieljbradshaw.co.uk/blog/Games-Engine-Construction-Final-Demo/",
       "excerpt"		: "Creating a game engine in C++"
     }
   
@@ -35,7 +35,7 @@
   
     ,{
       "title"			: "Year 1 ICA - Centipede Remake",
-      "link"			: "http://hello.danieljbradshaw.co.uk/blog/Centipede-Remake/",
+      "link"			: "http://www.danieljbradshaw.co.uk/blog/Centipede-Remake/",
       "excerpt"		: "Remaking the arcade classic, Centipede in C++"
     }
   
@@ -43,7 +43,7 @@
   
     ,{
       "title"			: "UDK – Dr Who Level demo",
-      "link"			: "http://hello.danieljbradshaw.co.uk/blog/UDK-Level-Demo/",
+      "link"			: "http://www.danieljbradshaw.co.uk/blog/UDK-Level-Demo/",
       "excerpt"		: "Building a simple level in UDK"
     }
   
@@ -61,9 +61,11 @@
   
 
   
+
+  
     ,{
       "title"			: "Theme Setup",
-      "link"			: "http://hello.danieljbradshaw.co.uk/theme-setup/",
+      "link"			: "http://www.danieljbradshaw.co.uk/theme-setup/",
       "excerpt"		: "Instructions on how to install and customize the Jekyll theme So Simple."
     }
   
@@ -71,7 +73,15 @@
   
     ,{
       "title"			: "Twitter Feed",
-      "link"			: "http://hello.danieljbradshaw.co.uk/twitter-feed/",
+      "link"			: "http://www.danieljbradshaw.co.uk/twitter-feed/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Recent Projects",
+      "link"			: "http://www.danieljbradshaw.co.uk/about/projects/",
       "excerpt"		: ""
     }
   
@@ -79,11 +89,9 @@
   
     ,{
       "title"			: "About Me",
-      "link"			: "http://hello.danieljbradshaw.co.uk/about/",
+      "link"			: "http://www.danieljbradshaw.co.uk/about/",
       "excerpt"		: ""
     }
-  
-
   
 
   

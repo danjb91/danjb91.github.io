@@ -2,17 +2,43 @@
 layout: post
 title: Unity Internal Cheat Code
 excerpt: "Who knew Unity had cheat codes?"
-modified: 2016-06-01T14:17:25-04:00
-categories: articles
+categories: blog
 tags: [CSharp, Unity3d]
 comments: false
 share: true
 author: dan_bradshaw
+published: false
 ---
 
 One of the best tools for writing Unity Editor scripts, is being able to learn directly from the Awesome Team that creates the tools you use every day in the editor. Because the Unity Editor is largely written in C#, this means we can decompile the editor code, and directly see how they are using their APIs, or how they do they fancy things they do!
 
-This used to be quite the controversial topic, but recently Unity have explicitly allowed this in their terms of service. Personally, I use the brilliant application dotPeek from JetBeans. We can select any class in either the UnityEngine, or UnityEditor DLL files and view the decompiled code for the functions in that class. You might quickly noticed that some functions don't have decompiled code available, these functions are implemented directly in the C++ part of the engine. This is usually done for optimisation reasons.
+This used to be quite the controversial topic, but recently Unity have explicitly allowed this in their terms of service. Personally, I use the brilliant application dotPeek from JetBeans. We can select any class in either the UnityEngine, or UnityEditor DLL files and view the decompiled code for the functions in that class. You might quickly notice that some functions don't have decompiled code available, these functions are implemented directly in the C++ part of the engine. This is usually done for optimisation reasons, the code relies on a middleware the engine is using, or (like the render pipeline) they've not got around to exposing implementing it in C#.
+
+<figure>
+	<img src="{{ site.url }}/images/articles/dotPeek.png" alt="image">
+	<figcaption><a href="{{ site.url }}/images/articles/dotPeek.png" title="You can import the whole Managed Unity folder and find dependancies across the many dll files.">You can import the whole Managed Unity folder and find dependancies across the many dll files.</a></figcaption>
+</figure>
+While looking at how the Animator window is implemented for a project I'll be talking about soon, I noticed an interesting snippet of code in the **About Unity** window implementation.
+
+```csharp
+private void ListenForSecretCodes()
+{
+	if (Event.current.type != EventType.KeyDown || (int) Event.current.character == 0 || !this.SecretCodeHasBeenTyped("internal", ref this.m_InternalCodeProgress))
+		return;
+	bool flag = !EditorPrefs.GetBool("InternalMode", false);
+	EditorPrefs.SetBool("InternalMode", flag);
+	this.ShowNotification(new GUIContent("Internal Mode " + (!flag ? "Off" : "On")));
+	InternalEditorUtility.RequestScriptReload();
+}
+```
+
+Once you've typed *internal* into the **About Unity** window you'll see a notification like below and Unity will recompile the script assemblies.
+
+<figure>
+	<a href="{{ site.url }}/images/articles/internal_mode.png"><img src="{{ site.url }}/images/articles/internal_mode.png" alt="image"></a>
+</figure>
+
+Now, we can't directly see what this will affect from this area of the decompiled code, but a bit of digging reveales a few bits of code which check this "InternalMode" Editor Preference flag.
 
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 
